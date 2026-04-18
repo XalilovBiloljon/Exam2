@@ -13,7 +13,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 
 export default function Crud() {
    
-  let adres ="http://699455b3fade7a9ec0f51239.mockapi.io/Dars"
+  let adres ="https://699455b3fade7a9ec0f51239.mockapi.io/Dars"
 
     let [User,setUser] = useState([])
     async function getUser() {
